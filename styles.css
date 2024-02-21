@@ -29,7 +29,9 @@ a {
 .header {
   display: flex;
   align-items: center;
-  padding: 16px 196px;
+  padding: 8px 196px;
+
+  border: 1px solid black;
 
 }
 
@@ -50,9 +52,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
-  border: 1px solid white;
-  padding: 128px 196px;
+  gap: 16px;
+  /* border: 1px solid white; */
+  padding: 96px 196px;
 }
 
 .hero-left {
@@ -60,13 +62,17 @@ a {
   flex-direction: column;
   width: 400px;
   flex: 1 1 auto;
-  /* border: 1px solid black; */
+  border: 1px solid black;
+  gap: 4px;
 }
 
 .hero-right {
   display: flex;
-  height: 260px;
-  width: 520px;
+  justify-content: center;
+  align-items: center;
+  color: #E5E7EB;
+  height: 225px;
+  width: 480px;
   flex: 0 1 auto;
   background-color: #666;
   /* border: 1px solid white; */
@@ -79,6 +85,7 @@ a {
   color: #F9FAF8;
 }
 
+
 .sign-up {
   margin: 0;
   border: none;
@@ -89,4 +96,51 @@ a {
   border-radius: 10px;
   color: #F9FAF8;
   font-weight: 900;
+}
+
+.middle-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px;
+}
+
+.info-title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.info-container {
+  display: inherit;
+  justify-content: space-between;
+  gap: 42px;
+  flex: 1 0 auto;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 150px;
+  /* border: 1px solid black; */
+  color: #666;
+}
+
+
+.img-frame {
+  height: 150px;
+  width: 150px;
+  border: 3px solid #3882F6;
+  flex: 0 0 auto;
+  border-radius: 10px;
 }
