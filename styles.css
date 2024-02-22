@@ -21,7 +21,8 @@ a {
   background-color: #1F2937;
 }
 
-.top-subtext {
+.top-subtext,
+.footer {
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -35,7 +36,7 @@ a {
 .logo {
   color: #F9FAF8;
   font-size: 24px;
-  font-weight: bolder;
+  font-weight: 850;
 }
 
 .right-links {
@@ -58,7 +59,7 @@ a {
   flex-direction: column;
   width: 400px;
   flex: 1 1 auto;
-  gap: 4px;
+  gap: 12px;
 }
 
 .hero-right {
@@ -75,7 +76,7 @@ a {
 
 .hero-main {
   font-size: 48px;
-  font-weight: bolder;
+  font-weight: 850;
   color: #F9FAF8;
 }
 
@@ -107,7 +108,7 @@ a {
 
 .info-title {
   font-size: 36px;
-  font-weight: bolder;
+  font-weight: 850;
   color: #1F2937;
 }
 
@@ -155,6 +156,66 @@ a {
 
 .quote-author {
   font-size: 22px;
-  font-weight: bolder;
+  font-weight: 850;
   align-self: flex-end;
+  padding-right: 36px;
+}
+
+.call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 96px;
+}
+
+.action-box {
+  display: inherit;
+  background-color: #3882F6;
+  padding: 48px 112px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 128px;
+  border-radius: 10px;
+}
+
+.action-left {
+  display: inherit;
+  flex-direction: column;
+
+}
+
+.action-left-top {
+  font-size: 22px;
+  font-weight: 850;
+  color: #F9FAF8;
+}
+
+.action-left-bottom {
+  font-size: 17px;
+  color: #E5E7EB;
+}
+
+.action-button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: inherit;
+  border: 2px solid #F9FAF8;
+  border-radius: 10px;
+  padding: 2px 8px;
+  width: 120px;
+  height: 35px;
+  font: inherit;
+  color: #F9FAF8;
+  font-size: 16px;
+  font-weight: 850;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  padding: 36px;
 }
